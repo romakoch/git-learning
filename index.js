@@ -34,7 +34,7 @@ const fib = [1,2,3,5,8,13]
 const log = (iterator, time) => {
   return setTimeout(() => console.log(iterator), time)
 } 
-
+console.log(fib)
 for (let i = 0; i < fib.length; i++) {
   log(fib[i], 1000 * i)
 }
